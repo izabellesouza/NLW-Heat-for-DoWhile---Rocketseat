@@ -8,9 +8,12 @@ https://izabellesouza.github.io/NLW-Heat-for-DoWhile---Rocketseat/
 
 HTML;
 CSS;
-JavaScript
-<b> Com efeito Dark-Mode<b>
-<i>Ícones estilização própria</i>
+JavaScript;
+
+##
+
+<b> Com efeito Dark-Mode<b>;
+<i>Ícones estilização própria</i>;
 <b> (Incluindo aprendizado com API-banco de dados)</b>
 
 ##
