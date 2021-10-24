@@ -43,9 +43,6 @@ a {
   color: var(--link-color-hover);
 }
 
-@media screen and (min-width: 924px) {
-}
-
 main {
   background: url(images/background.svg) no-repeat center;
   width: 100vw;
