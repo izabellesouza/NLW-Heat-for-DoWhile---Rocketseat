@@ -46,9 +46,6 @@ a {
 @media screen and (min-width: 924px) {
 }
 
-@media screen and (max-width: 740px) {
-}
-
 main {
   background: url(images/background.svg) no-repeat center;
   width: 100vw;
