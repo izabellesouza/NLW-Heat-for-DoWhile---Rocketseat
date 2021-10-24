@@ -10,13 +10,14 @@ HTML;
 CSS;
 JavaScript
 <b> Com efeito Dark-Mode<b>
+<i>Ícones estilização própria</i>
 <b> (Incluindo aprendizado com API-banco de dados)</b>
 
 ##
 
 
 
-## Ícones - estilização própria
+## Ícones 
 
 :package: nova funcionalidade
 :up: atualização
