@@ -2,7 +2,7 @@
 
 Projeto crachá online, desenvolvido para o evento DoWHILE da Rocketseat
 
-
+https://izabellesouza.github.io/NLW-Heat-for-DoWhile---Rocketseat/
 
 ## Tecnologias
 
@@ -15,9 +15,7 @@ JavaScript
 
 ##
 
-
-
-## Ícones 
+## Ícones
 
 :package: nova funcionalidade
 :up: atualização
