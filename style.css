@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  --black: hsl(240, 6%, 13%);
+  --grey: hsl(240, 9%, 89%);
+  background: url(images/logo.svg);
+
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+:root {
+  --body-bg: #fafafa;
+  --body-color: #555;
+  --link-color: #222;
+  --link-color-hover: #ec5b40;
+}
+
+.dark-mode:root {
+  --body-bg: #212529;
+  --body-color: #899095;
+  --link-color: #dee2e6;
+  --link-color-hover: #3cc368;
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+a {
+  color: var(--link-color);
+}
+:hover {
+  color: var(--link-color-hover);
+}
+main {
+  background: url(images/background.svg);
+  width: 375px;
+  height: 812px;
+}
+
+h1 {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #fff;
+  box-shadow: 0.1rem 0.1rem 1px #000;
+  transition: transform 1s;
+}
+
+h1 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.container {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  color: var(--grey);
+}
+
+.avatar {
+  width: 10rem;
+  margin: 11.5rem auto 0;
+
+  position: relative;
+}
+
+.avatar span {
+  position: absolute;
+  top: -15px;
+  z-index: 1;
+}
+
+.avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+h1 {
+  font-size: 1.5rem;
+
+  margin-top: 1.5rem;
+}
+
+a {
+  color: var(--grey);
+  text-decoration: none;
+
+  margin-top: 0.25rem;
+
+  display: flex;
+  gap: 0.75rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+ul {
+  margin-top: 4rem;
+
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  gap: 0.5rem;
+
+  justify-content: center;
+}
